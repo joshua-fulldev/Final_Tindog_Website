@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body {
+    text-align: center;
+  }
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 5% 15% !important;
+    padding-bottom: 28% !important;
+}
+
+.phone-img {
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 2;
+}
+
+#features {
+    background-color: white;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    position: relative;
+    z-index: 4;    
+}
+
+.my-features-container {
+    min-height: 200px;
+    padding: 5rem 2rem;
+}
+
+#testimonials {
+    min-height: 30rem;
+    padding-bottom: 4rem;
+    position: relative;
+    z-index: 2;
+}
+
+.carousel-text-caption {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 2;
+}
+
+#press {
+    position: relative;
+    z-index: 2;
+}
+
+#pricing {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+}
+
+.my-container {
+    width: 70%;
+    margin: auto;
+
+}
+
+#cta {
+    position: relative;
+    z-index: 4;
+}
+
+.inner-cta {
+    width: 60%;
+    margin: auto;
+}
+
+#footer {
+    height: 20rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .container-fluid {
+        padding-bottom: 5% !important;
+    }
+
+    .phone-div-img {
+        padding-top: 15px;
+    }
+
+    .phone-img {
+        transform: rotate(0);
+        position: relative;
+    }
+
+}
